@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>student_page</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        
+        </style>
+
+        
+</head>
+
+<body>
+    <div class="top_bar">
+      <h2>205121075</h2>
+    </div>
+
+    <div class="form">
+      <form action="/student" method="post">
+             
+        
+        <div class="part_a">
+
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname"><br><br>
+
+                <label for="enroll">Enrollment:</label><br>
+                <input type="text" id="enroll" name="enroll"><br><br>
+
+                <label for="Fname">Father name:</label><br>
+                <input type="text" id="Fname" name="Fname"><br><br>
+
+                <label for="enroll">Address:</label><br>
+                <input type="text" id="enroll" name="address"><br><br>
+                <label for="cat">Category:</label>
+
+          <select name="cat" id="cat">
+            <option value="OBC">OBC</option>
+            <option value="GEN">GEN</option>
+            <option value="SC/ST">SC/ST</option>
+          </select>
+          <br><br>
+        
+          <p1 id="gender">Please select your Gender:</p1><br>
+            <input type="radio" id="m" name="gender" value="M">
+            <label for="m">Male</label><br>
+            <input type="radio" id="f" name="gender" value="F">
+            <label for="f">Female</label><br><br><br>
+        </div>
+
+              
+              
+
+       <div class="part_b">
+
+        <label id="lname" for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+
+        <label for="adhaar">Adhaar number:</label>
+       <input type="tel" id="adhaar" name="adhaar" placeholder="4444-4444-4444" pattern="[1-9]{4}[0-9]{4}[0-9]{4}" required><br><br>
+
+       <label for="mname">Mother name:</label>
+       <input type="text" id="mname" name="mname"><br><br>
+
+       <label for="phone">Mobile number:</label>
+       <input type="tel" id="phone" name="phone" placeholder="+91-55555-55555" pattern="[0-9]{10}" required><br><br>
+      
+       <label for="dob">Date of Birth:</label>
+          <input type="date" id="dob" name="dob"><br><br><br>
+            
+       </div>
+
+       <button type="submit" class="submit-btn">Submit</button>
+      </form>
+
+
+
+
+    </div>
+
+</body>
+</html>
